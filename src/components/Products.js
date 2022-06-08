@@ -27,6 +27,15 @@ const Products = () => {
                 <h1>Loading...</h1>
             </div>
         )}
+
+        {/* PRODUCTS */}
+        {data.map((product) => (
+            <div key={product.id}>
+                <div></div>
+                <div></div>
+            </div>
+        ))}
+        
     </div>
   );
 }
